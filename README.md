@@ -3,20 +3,26 @@
 Copy the contents of this folder to a sub directory called src
 
 ```
-project
-│   README.md
-│   file001.txt    
+laundryrobot_ws
 │
 └───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
+|   │   files...
 │   
 └───folder2
-    │   file021.txt
-    │   file022.txt
+    │   files...
+```
+
+Change top to bottom
+
+```
+laundryrobot_ws
+│
+└───src
+    │
+    └───folder1
+    |   │   files...
+    | 
+    └───folder2
+        |   files...
+
 ```
