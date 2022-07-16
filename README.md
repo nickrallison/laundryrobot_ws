@@ -31,4 +31,6 @@ laundryrobot_ws
  
 3. In the laundryrobot_ws run catkin_make
 
-Add ```source ~/laundryrobot_ws/devel/setup.bash``` to your bashrc
+4. Add ```source ~/laundryrobot_ws/devel/setup.bash``` to your bashrc
+
+5. In two new windows, run ```roscore``` and ```roslaunch laundry_firmware rpmcontrol.launch```
