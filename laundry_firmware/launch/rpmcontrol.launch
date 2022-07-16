@@ -1,0 +1,4 @@
+<launch>
+  <node name="controller" pkg="laundry_firmware" type="testInput.py" output="screen"/>
+  <node name="pwmactuation" pkg="laundry_firmware" type="actuationControl.py" output="screen"/>
+</launch>
