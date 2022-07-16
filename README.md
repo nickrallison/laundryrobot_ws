@@ -1,6 +1,8 @@
 # laundryrobot_ws
 ## To initialize the driver 
-Copy the contents of this folder to a sub directory called src
+1. Clone this repo to your home folder
+
+2. Copy the contents of this folder to a sub directory called src
 
 ```
 laundryrobot_ws
@@ -26,3 +28,7 @@ laundryrobot_ws
         |   files...
 
 ```
+ 
+3. In the laundryrobot_ws run catkin_make
+
+Add ```source ~/laundryrobot_ws/devel/setup.bash``` to your bashrc
